@@ -1,0 +1,16 @@
+Bugers: 50
+Cashier 1 Queue:
+mihan asd - Burgers: 1
+nnup wqe - Burgers: 5
+
+Cashier 2 Queue:
+mihan asd - Burgers: 1
+nnup wqe - Burgers: 5
+
+Cashier 3 Queue:
+mihan asd - Burgers: 1
+nnup wqe - Burgers: 5
+
+Waiting Queue:
+
+

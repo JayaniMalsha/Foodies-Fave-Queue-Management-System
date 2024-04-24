@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="stage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="600.0" style="-fx-background-color: yellow; -fx-border-color: brown; -fx-border-width: 3px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cw_jan_fx.HelloController">
+   <children>
+      <GridPane alignment="TOP_RIGHT" layoutX="22.0" layoutY="94.0" prefHeight="200.0" prefWidth="308.0" style="-fx-background-color: pink; -fx-border-color: black;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier 2" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier 3" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier 1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Text>
+            <Text fx:id="cus11" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.rowIndex="1" />
+            <Text fx:id="cus12" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.rowIndex="2" />
+            <Text fx:id="cus21" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Text fx:id="cus22" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Text fx:id="cus23" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Text fx:id="cus31" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Text fx:id="cus32" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Text fx:id="cus33" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Text fx:id="cus35" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Text fx:id="cus34" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </GridPane>
+      <Button layoutX="242.0" layoutY="345.0" mnemonicParsing="false" onAction="#searchCoustermer" prefHeight="26.0" prefWidth="88.0" style="-fx-border-color: black;" text="search">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <TextField fx:id="couName" layoutX="26.0" layoutY="310.0" prefHeight="16.0" prefWidth="308.0" style="-fx-background-color: pink; -fx-border-color: black;" />
+      <TextArea fx:id="cusDetails" layoutX="26.0" layoutY="383.0" prefHeight="102.0" prefWidth="308.0" style="-fx-border-color: black;" />
+      <ListView fx:id="listview" layoutX="358.0" layoutY="141.0" prefHeight="343.0" prefWidth="215.0" style="-fx-background-color: pink; -fx-border-color: black;" />
+      <Text layoutX="358.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="      Waiting Queue" wrappingWidth="206.13668823242188">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Label layoutX="80.0" layoutY="11.0" prefHeight="70.0" prefWidth="503.0" text="       Foodies Fave Food Center">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
